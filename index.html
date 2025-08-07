@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShryWave</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo" data-section="home">Shry<span>Wave</span></a>
+                <ul class="nav-links">
+                    <li><a href="#" data-section="home" class="active">Home</a></li>
+                    <li><a href="#" data-section="blog">Blog</a></li>
+                    <li><a href="#" data-section="about">About</a></li>
+                     <li><a href="youtube.html">YouTube</a></li>
+                    
+                    <li><a href="#" data-section="contact">Contact</a></li>
+                    <li>
+                        <div class="theme-toggle"></div>
+                    </li>
+                </ul>
+                <div class="hamburger">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="active">
+        <div class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1>Welcome to ShryWave</h1>
+                    <p>Sharing my thoughts, experiences, and adventures with the world</p>
+                    <div class="hero-btns">
+                        <a href="#" data-section="blog" class="btn">Read My Posts</a>
+                        <a href="#" data-section="about" class="btn btn-outline">About Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="container">
+                <h2 class="section-title">Recent Posts</h2>
+                <div class="posts" id="recent-posts">
+                    <!-- Recent posts will be loaded here -->
+                </div>
+                <div class="text-center">
+                    <a href="#" data-section="blog" class="btn">View All Posts</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="main">
+            <div class="container">
+                <h1 class="section-title">All Blog Posts</h1>
+                <div class="posts" id="all-posts">
+                    <!-- All posts will be loaded here -->
+                </div>
+                <div class="pagination" id="pagination">
+                    <!-- Pagination will be added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="main">
+            <div class="container">
+                <h1 class="section-title">About Me</h1>
+                <div class="about">
+                    <div class="about-img-container">
+                        <img src="image.png" alt="Profile Picture" class="about-img">
+                    </div>
+                    <div class="about-content">
+                        <h2>Hi, I'm Nittyshry Prabhu</h2>
+                        <p><h3>Friends,</h3><br>
+<h4>I always want to capture every moment that comes in my life (in my phone's camera, in my diary, in my mind so that I never forget it).<br><br>
+I live every moment always, whether it is a beautiful moment, sometimes a sad moment, sometimes a moment of struggle, every moment that comes in my life, friend.</h4><br>
+<h3>Let's talk about me -</h3><br>
+                            I am a passionate creative artist driven by the belief that art has the power to inspire, connect, and leave a lasting impact. My journey began with a deep love for storytelling, which gradually expanded into filmmaking, acting, and music composition.</p>
+                        <p>
+Currently pursuing a Bachelor’s degree in Computer Science and Engineering, I balance academics with creativity, using my technical foundation to enhance my artistic vision. My goal is to craft meaningful films, powerful performances, and soulful music that resonate deeply with audiences.</p>
+                        <p>Though I never initially saw myself as a writer, my perspective changed in 2021 (11th grade) when I realized the power of storytelling. I decided to start writing with the dream of one day turning my scripts into films—stories that bring positive, impactful content to society.</p>
+                        <p>
+As a multifaceted creative, I constantly refine my skills in screenwriting, acting, editing, photography, and web design. I believe in collaborative growth and working with like-minded artists who share a passion for innovation and authentic storytelling.<br><br>My vision is clear: To create. To inspire. To leave a mark.
+
+</p>
+                        <div class="skills">
+                            <h3>My Skills</h3>
+                            <div class="skills-list">
+                                <span class="skill">Writing</span>
+                                    <span class="skill">Editing</span>
+                                <span class="skill">Photography</span>
+                                <span class="skill">Web Design</span>
+                               
+                                <span class="skill">Social Media</span>
+                            </div>
+                            </div>
+                            <hr><br><br>
+                        <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61578641476129"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/nittyshryprabhu/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@NittyshryPrabhu"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/nittyshry-prabhu-74a479288/"><i class="fab fa-linkedin"></i></a>
+                       
+                        
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="main">
+            <div class="container">
+                <h1 class="section-title">Contact Me</h1>
+                <div class="contact">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h3>Email</h3>
+                                <p>nittyshryprabhu@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+91 7739797140</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Uttar Pradesh , India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Post Detail Section -->
+    <section id="post-detail">
+        <div class="main">
+            <div class="container">
+                <a href="#" data-section="blog" class="btn btn-outline" style="margin-bottom: 2rem;">
+                    <i class="fas fa-arrow-left"></i> Back to Blog
+                </a>
+                <div class="post-header" id="post-header">
+                    <!-- Post header will be loaded here -->
+                </div>
+                <div class="post-content" id="post-content">
+                    <!-- Post content will be loaded here -->
+                </div>
+                <div class="post-tags" id="post-tags">
+                    <!-- Post tags will be loaded here -->
+                </div>
+                <div class="post-navigation">
+                    <a href="#" id="prev-post"><i class="fas fa-chevron-left"></i> Previous Post</a>
+                    <a href="#" id="next-post">Next Post <i class="fas fa-chevron-right"></i></a>
+                </div>
+
+
+                <!-- <div class="comments">
+                    <h3>Comments (3)</h3>
+                    <div class="comment">
+                        <img src="https://source.unsplash.com/random/100x100/?person" alt="User" class="comment-avatar">
+                        <div class="comment-content">
+                            <h4>John Doe</h4>
+                            <div class="comment-meta">2 days ago</div>
+                            <p>Great post! I really enjoyed reading this and learned a lot. Keep up the good work!</p>
+                            <a href="#" class="comment-reply">Reply</a>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="https://source.unsplash.com/random/100x100/?woman" alt="User" class="comment-avatar">
+                        <div class="comment-content">
+                            <h4>Jane Smith</h4>
+                            <div class="comment-meta">1 week ago</div>
+                            <p>Thanks for sharing your experience. I had a similar situation last month and your tips helped me a lot.</p>
+                            <a href="#" class="comment-reply">Reply</a>
+                        </div>
+                    </div>
+                    <div class="comment">
+                        <img src="https://source.unsplash.com/random/100x100/?man" alt="User" class="comment-avatar">
+                        <div class="comment-content">
+                            <h4>Mike Johnson</h4>
+                            <div class="comment-meta">3 weeks ago</div>
+                            <p>Interesting perspective. I never thought about it this way before. Looking forward to your next post!</p>
+                            <a href="#" class="comment-reply">Reply</a>
+                        </div>
+                    </div>
+                    <div class="comment-form">
+                        <h3>Leave a Comment</h3>
+                        <form>
+                            <div class="form-group">
+                                <label for="comment-name">Name</label>
+                                <input type="text" id="comment-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment-email">Email</label>
+                                <input type="email" id="comment-email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="comment-message">Comment</label>
+                                <textarea id="comment-message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn">Post Comment</button>
+                        </form>
+                    </div> -->
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>MyBlog</h3>
+                    <p>Sharing my thoughts, experiences, and adventures with the world through writing and photography.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61578641476129"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/nittyshryprabhu/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@NittyshryPrabhu"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/nittyshry-prabhu-74a479288/"><i class="fab fa-linkedin"></i></a>
+                        
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-section="home">Home</a></li>
+                        <li><a href="#" data-section="blog">Blog</a></li>
+                        <li><a href="youtube.html" >YouTube</a></li>
+                        <li><a href="#" data-section="about">About</a></li>
+                        <li><a href="#" data-section="contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" data-category="travel">Travel</a></li>
+                        <li><a href="#" data-category="books">Books</a></li>
+                        <li><a href="#" data-category="technology">Technology</a></li>
+                        <li><a href="#" data-category="lifestyle">Lifestyle</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to my newsletter for the latest posts and updates.</p>
+                    <form id="newsletterForm">
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <button type="submit" class="btn">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="year"></span> ShryWave. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+   <script>
+    // Handle redirects from 404 page
+    if (sessionStorage.redirect) {
+        const redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        
+        // Check if this is a blog post URL
+        if (redirect.startsWith('/post/')) {
+            const postId = redirect.split('/')[2];
+            window.location.hash = `#/post/${postId}`;
+        }
+    }
+</script>
+      
+      
+      <script src="script.js"></script>
+      
+</body>
+</html>
