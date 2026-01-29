@@ -184,7 +184,7 @@ Then why can't he understand your heart and you can't understand his heart
     image: "https://www.shutterstock.com/image-photo/monochrome-two-desperate-woman-try-260nw-1140298994.jpg",
     readTime: "3 min read"
 },
-        {
+     /*   {
     id: 15,
     title: "A Man: A True 21st Century Story",
     excerpt: "How practical wisdom triumphed over formal education in a village life journey",
@@ -257,8 +257,8 @@ Then why can't he understand your heart and you can't understand his heart
     date: "November 10, 2021",
     image: "image copy.png",
     readTime: "6 min read"
-},
-        {
+},*/
+       {
     id: 14,
     title: "The Illusion of Perfect Beauty",
     excerpt: "How our perception limits the world's beauty, and why nothing is truly perfect",
@@ -1273,4 +1273,5 @@ Ever since I have seen you, it crosses all limits.
         const loader = document.querySelector('.loader');
         if (loader) loader.style.display = 'none';
     }, 1000);
+
 });
